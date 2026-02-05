@@ -10,4 +10,4 @@ Bloxd.io is a free-to-play, browser-based multiplayer sandbox game featuring vox
 
 [官网] (http://bloxd.io/)
 
-#### my game-id is  SaltyPanda123  ,welcome play with me!
+my game-id is  **SaltyPanda123**  ,welcome play with me!
