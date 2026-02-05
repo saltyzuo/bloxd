@@ -1,1 +1,1 @@
-# bloxd cube war insight
+# bloxd cubewar insight
