@@ -15,7 +15,7 @@ my game-id is  **SaltyPanda123**  ,welcome play with me!
 my assistant: **Hansen325**
 
 ## portal
-[api code] (https://github.com/saltyzuo/bloxd/blob/main/apicode.md)
-[cool code] (https://github.com/saltyzuo/bloxd/blob/main/coolCode.md)
-[cube warfare strategy] （https://github.com/saltyzuo/bloxd/blob/main/cubeWarfare.md）
+[api code] (https://github.com/saltyzuo/bloxd/blob/main/apicode.md)  
+[cool code] (https://github.com/saltyzuo/bloxd/blob/main/coolCode.md)  
+[cube warfare strategy] （https://github.com/saltyzuo/bloxd/blob/main/cubeWarfare.md)  
  
