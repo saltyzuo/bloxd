@@ -1,6 +1,6 @@
-# bloxd cubewarfare insight
+# bloxd cubewarfare insight  
 
-#### Welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal insights regarding the Bloxd gun battle mode (Cube Warfare). I hope this will help you reach the top!
+Welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal insights regarding the Bloxd gun battle mode (Cube Warfare). I hope this will help you reach the top!
 ----
 |
 ## guns
