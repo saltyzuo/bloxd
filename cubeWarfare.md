@@ -25,4 +25,4 @@ u can press `b` in buff choice list.
 - **HealthUp**:(Increase maximum health by 30)  
 - **AutoBlocks**:(Gain 1 block per second)  
 - **HitItem**:(Increase all damage to 130% of the original damage)
-- **Goodaimer**(Increase the headshot damage to $$/frac{23}{15}$$ of the original damage)
+- **Goodaimer**(Increase the headshot damage to $$ \frac{23}{15} $$ of the original damage)
