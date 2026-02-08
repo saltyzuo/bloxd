@@ -19,5 +19,10 @@ The damage of the shotgun here refers to the damage caused by one bullet, as the
 | Double Barrel   | 17.5 | 10    |  8   |  22.75        |   13           |   10.4        |
 | AWP             | 122.5| 70    | 56   |  159.25       |   91           |   72.8        |
 
-
-
+### buff
+u can press `b` in buff choice list.  
+100 list:
+- **HealthUp**:(Increase maximum health by 30)  
+- **AutoBlocks**:(Gain 1 block per second)  
+- **HitItem**:(Increase all damage to 130% of the original damage)
+- **Goodaimer**(Increase the headshot damage to $$frac{23}{15}$$ of the original damage)
