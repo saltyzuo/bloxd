@@ -34,7 +34,31 @@ let playerPos = api.getPosition(myId);
 api.log(playerPos);    // api.log()   another function,can print mesage to you,if playerPos = 1,1,1 ,there will print:  log:[1,1,1]
 
 ```
-This is a commonly used function that can obtain the coordinates of a player. The first parameter is the player's ID **(to be precise, it doesn't necessarily have to be a player, as long as it is an entity)**. The second parameter is a list that should be filled with the player's x, y, and z coordinates. Simply executing the code will obtain the player's coordinates Edit translation paragraph comparison  
+This is a commonly used function that can obtain the **coordinates of a player**.  
+The first parameter is the player's ID **(to be precise, it doesn't necessarily have to be a player, as long as it is an entity)**. The return value(player can't see) is a list that should be filled with the player's x, y, and z coordinates.  
+Simply executing the code will obtain the player's coordinates Edit translation paragraph comparison.  
+
+## 2.setPosition()  
+``` javascript
+
+api.setPosition(entityId, x, y, z);
+// the usage:
+api.setPosition(myId, 100, 100, 100);  //set player x,y,z to 100,100,100
+
+```
+This is also a commonly used function that can obtain the player's coordinates.   
+The first parameter is the player's ID **(to be precise, it doesn't necessarily have to be a player; it can be any entity)**. The second, third, and fourth parameters are the set **x, y, z** coordinates.
+After executing the command, the player will be **teleported** to the designated location.  
+
+## 3.getPlayerIds()
+``` javascript
+
+api.getPlayerIds()
+
+
+```
+This function can obtain the names of all players in the room where the instruction is located.   
+This function is quite special. It doesn't take any parameters, and after executing the instruction, it returns a list containing the names of all the players in this room.  
 
 
 
