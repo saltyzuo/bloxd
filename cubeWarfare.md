@@ -2,7 +2,7 @@
 ----
 Welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal insights regarding the Bloxd gun battle mode (Cube Warfare). I hope this will help you reach the top!
 ----
-|
+
 ## guns
 guns is important in game,In Bloxd, there are a total of 8 types of firearms: **AK-47** assault rifle, **MP40** gun,**M1911** pistol,**TAR-21** marksman rifle,**M16** assault rifle,**Double Barrel**, **AWP** rifle,and **Minigun**(not available in Cube Warfare).Holding a gun will slow down the player's movement speed. Pressing and holding the right button to aim will further reduce the player's movement speed.
 
@@ -25,4 +25,7 @@ u can press `b` in buff choice list.
 - **HealthUp**:(Increase maximum health by 30)  
 - **AutoBlocks**:(Gain 1 block per second)  
 - **HitItem**:(Increase all damage to 130% of the original damage)
-- **Goodaimer**(Increase the headshot damage to $$ \frac{23}{15} $$ of the original damage)
+- **Goodaimer**(Increase the headshot damage to $$ \frac{23}{15} $$ of the original damage)  
+
+200 list:
+- **Airspring**:(Double Jump)
