@@ -78,7 +78,7 @@ The first parameter is the **player's ID**(if you fill in your own ID, you will 
 ``` javascript
 
 api.getBlockCoordinatesPlayerStandingOn(playerId)
-//usage:
+// usage:
 api.getBlockCoordinatesPlayerStandingOn(myId)
 
 ```
@@ -97,4 +97,20 @@ api.getBlockTypesPlayerStandingOn(myId)
 
 ```
 this function is like last function,but changed!it can get the types of block the player is standing on.  
-for example, if a player is standing on 4 dirt blocks, this will return  ["Dirt", "Dirt", "Dirt", "Dirt"]
+for example, if a player is standing on 4 dirt blocks, this will return  ["Dirt", "Dirt", "Dirt", "Dirt"]  
+
+### 7.getHealth()  
+```
+
+api.getHealth(entityId);
+// example:
+api.getHealth(myId)
+
+```
+This function also common,it can get the current health of an entity.
+for example,If you want to know how much health a player has, use this function.  
+Simply fill in his or her id as the first parameter, and you will be able to obtain the information.  
+
+
+
+
