@@ -17,7 +17,7 @@ bloxd official explanation website: [bloxd api](https://github.com/Bloxdy/code-a
 - and you can use code get code blocks  
 - No need to add `press to code`, this text is only needed for code boards, and will automatically be removed  
 - If you want to run code without opening the code editor, you can trigger the code block by right clicking an adjacent `press to code` board instead
-- // message     or     /* message */
+- If u use comments,write  // message    or    /* message */
 
 ## Boards  
 
@@ -25,7 +25,7 @@ bloxd official explanation website: [bloxd api](https://github.com/Bloxdy/code-a
 - Normally you can't edit a code board after placing it, but you can currently work around this by putting a space before `press to code`.  
 - Boards only allow for a small amount of text, we recommend you use Code Blocks instead, or you can work around this by using multiple boards
 
-## player's status  
+## player's status codes  
 
 ### 1.getPosition()  
 ``` javascript  
@@ -110,6 +110,20 @@ api.getHealth(myId)
 This function also common,it can get the current health of an entity.
 for example,If you want to know how much health a player has, use this function.  
 Simply fill in his or her id as the first parameter, and you will be able to obtain the information.  
+
+### 8.setHealth()  
+```
+
+api.setHealth(entityId, newHealth, whoDidDamage, increaseMaxHealthIfNeeded)
+// example:
+api.setHealth(myId,100, null, false)  // set player health to 100
+
+```
+This function can be used in PvP.  
+The first parameter is the ID of the player (or living creature) as usual.  
+The second parameter is the modified health (100 represents the maximum health of the player in normal state).   
+The third parameter is special, which can be filled with either the ID of the player or creature, or written as follows: {lifeformId: LifeformId; withItem: string} (withItem is the tool used, null represents none).  
+The last parameter indicates whether to modify the maximum health as needed (for demonstration purposes, if true is filled and the command adjusts the health above 100, the maximum health will be modified as needed).  
 
 
 
