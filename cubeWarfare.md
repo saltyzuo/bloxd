@@ -32,4 +32,7 @@ u can press `b` in buff choice list.
 - **Sneaky**:(press 'F' key to gain a temporary speed boost, with a cooldown)  
 
 300 list:
-\mathtt{aaa}
+- **Autoblocks**:(as above, stackable)
+- **Healthup**:(as above, stackable)
+- **Speedy**:(Gain permanent speed boost)
+- **Blockbreaker**:(increases the speed of breaking blocks)
