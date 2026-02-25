@@ -29,3 +29,5 @@ u can press `b` in buff choice list.
 
 200 list:
 - **Airspring**:(Double Jump)
+- **Healnow**:(obtains a steak with a cooldown)  
+- 
