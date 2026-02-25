@@ -1,11 +1,10 @@
-# bloxd cubewarfare insight  
-----
-Welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal insights regarding the Bloxd gun battle mode (Cube Warfare). I hope this will help you reach the top!
-----
+# bloxd cubewarfare strategy
+
+welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal(some in internet) strategy regarding the Bloxd cube warfare. I hope this will help you reach the top!
 
 ## guns
 guns is important in game,In Bloxd, there are a total of 8 types of firearms: **AK-47** assault rifle, **MP40** gun,**M1911** pistol,**TAR-21** marksman rifle,**M16** assault rifle,**Double Barrel**, **AWP** rifle,and **Minigun**(not available in Cube Warfare).Holding a gun will slow down the player's movement speed. Pressing and holding the right button to aim will further reduce the player's movement speed.
-
+<i class="bi bi-markdown">text=</i>
 ### guns damage
 The damage of the shotgun here refers to the damage caused by one bullet, as there are ten pellets in total.
 
@@ -30,4 +29,7 @@ u can press `b` in buff choice list.
 200 list:
 - **Airspring**:(Double Jump)
 - **Healnow**:(obtains a steak with a cooldown)  
-- 
+- **Sneaky**:(press 'F' key to gain a temporary speed boost, with a cooldown)  
+
+300 list:
+/tt{aaa}
