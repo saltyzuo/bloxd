@@ -32,4 +32,4 @@ u can press `b` in buff choice list.
 - **Sneaky**:(press 'F' key to gain a temporary speed boost, with a cooldown)  
 
 300 list:
-/tt{aaa}
+\tt{aaa}
