@@ -18,3 +18,8 @@ Each game will offer random boosts for players to purchase, with a fixed price o
 After purchasing a boost, an icon item for the boost will appear in the backpack, and multiple boosts can be stacked to take effect. 
 Players can refresh their purchase of boosts by spending 15 levels of experience.  
 
+|             common                                               |
+|         :------------------------:                               |
+| name   | effect                                                  |
+| :-----:|    :---------:                                          |
+| Tough  | Increase the maximum health by 10 points
