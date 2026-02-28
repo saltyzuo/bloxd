@@ -21,5 +21,9 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 |             common                                               |
 |         :------------------------:                               |
 | name   | effect                                                  |
-| :-----:|    :---------:                                          |
-| Tough  | Increase the maximum health by 10 points
+| Strong | Increase melee damage by 10%                            |
+| Tough  | Increase the maximum health by 10.                      | 
+| Archer | Increase bow/crossbow damage by 10%                     |
+| Smart  | Reduce the upgrade experience by 10%                    |
+| Forager| After each round, one type of basic food is obtained    |
+| Speedy | Increase movement speed by 10%                          | 
