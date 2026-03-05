@@ -12,6 +12,8 @@ In the later stages, its presence is extremely low and it's used just to make up
 First appearing in the second round, this is the most common small remote-shooting monster.   
 It moves slowly and may even "kill itself". Its speed is very slow, making it almost a filler monster.  
 
+3.****
+
 ## Upgrades  
 
 Each game will offer random boosts for players to purchase, with a fixed price of one moonstone.  
