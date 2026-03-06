@@ -41,3 +41,17 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | Forager| After each round, one type of basic food is obtained    |
 | Speedy | Increase movement speed by 10%                          | 
 
+2.rare
+| name   | effect                                                  |
+| :---:  |             :----------:                                |
+| Tank   | Grant 3 points of shield after taking damage            |
+| Shieldmaster  | Increase the maximum health by 10.               | 
+| Archer | Increase bow/crossbow damage by 10%                     |
+| Smart  | Reduce the upgrade experience by 10%                    |
+| Forager| After each round, one type of basic food is obtained    |
+| Speedy | Increase movement speed by 10%                          | 
+
+
+
+
+
