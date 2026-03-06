@@ -52,6 +52,15 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | Bomber | At the end of each round, a fireball is obtained        | 
 | Alchemist | At the end of each round, a bottle of potion is randomly obtained  | 
 
+3.<font color=#008000>我是绿色</font>
+| name   | effect                                                  |
+| :---:  |             :----------:                                |
+| Strong | Increase melee damage by 10%                            |
+| Tough  | Increase the maximum health by 10.                      | 
+| Archer | Increase bow/crossbow damage by 10%                     |
+| Smart  | Reduce the upgrade experience by 10%                    |
+| Forager| After each round, one type of basic food is obtained    |
+| Speedy | Increase movement speed by 10%                          | 
 
 
 
