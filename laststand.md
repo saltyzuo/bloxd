@@ -45,12 +45,12 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | name   | effect                                                  |
 | :---:  |             :----------:                                |
 | Tank   | Grant 3 points of shield after taking damage            |
-| Shieldmaster  | Increase the maximum health by 10.               | 
-| Archer | Increase bow/crossbow damage by 10%                     |
-| Smart  | Reduce the upgrade experience by 10%                    |
-| Forager| After each round, one type of basic food is obtained    |
-| Speedy | Increase movement speed by 10%                          | 
-
+| Shieldmaster  | Set the shield to 10 after each round ends       | 
+| Investor | At the end of each round, you will receive 1 to 5 pieces of coal|
+| Scavenger  | have a 10% chance of not consuming arrows during archery|
+| Bloodlust| Gain damage bonus within a certain period of time after killing a mob|
+| Bomber | At the end of each round, a fireball is obtained        | 
+| Alchemist | At the end of each round, a bottle of potion is randomly obtained  | 
 
 
 
