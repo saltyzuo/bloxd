@@ -32,6 +32,7 @@ After purchasing a boost, an icon item for the boost will appear in the backpack
 Players can refresh their purchase of boosts by spending 15 levels of experience.  
 
 1.common
+
 | name   | effect                                                  |
 | :---:  |             :----------:                                |
 | Strong | Increase melee damage by 10%                            |
@@ -42,6 +43,7 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | Speedy | Increase movement speed by 10%                          | 
 
 2.rare
+
 | name   | effect                                                  |
 | :---:  |             :----------:                                |
 | Tank   | Grant 3 points of shield after taking damage            |
@@ -52,8 +54,7 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | Bomber | At the end of each round, a fireball is obtained        | 
 | Alchemist | At the end of each round, a bottle of potion is randomly obtained  | 
 
-3.<font color=#FFC0CB>我是绿色</font>  
-<font color=Blue size=7 face="黑体">蓝色加粗7号黑体</font></b>
+3.<span style="color: red;">红色文字</span>
 
 | name   | effect                                                  |
 | :---:  |             :----------:                                |
