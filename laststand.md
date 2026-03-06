@@ -54,7 +54,7 @@ Players can refresh their purchase of boosts by spending 15 levels of experience
 | Bomber | At the end of each round, a fireball is obtained        | 
 | Alchemist | At the end of each round, a bottle of potion is randomly obtained  | 
 
-3. $\color{magenta}{epic}$
+3.$\color{magenta}{epic}$
 
 | name   | effect                                                  |
 | :---:  |             :----------:                                |
