@@ -8,10 +8,10 @@ Bloxd.io is a free-to-play, browser-based multiplayer sandbox game featuring vox
 - Competitive Modes: Engage in popular mini-games like Bedwars, Sky Wars, Pirates, and EvilTower(parkour).
 - Social & Life Sim: Roleplay in Greenville or create custom private worlds.
 
-the[official website](http://bloxd.io/)
+[the official website](http://bloxd.io/)
 
 ## portal
-[api code] (https://github.com/saltyzuo/bloxd/blob/main/apicode.md)  
-[cool code] (https://github.com/saltyzuo/bloxd/blob/main/coolCode.md)  
-[cube warfare strategy] （https://github.com/saltyzuo/bloxd/blob/main/cubeWarfare.md)  
+[api code](https://github.com/saltyzuo/bloxd/blob/main/apicode.md)  
+[cool code](https://github.com/saltyzuo/bloxd/blob/main/coolCode.md)  
+[cube warfare strategy](https://github.com/saltyzuo/bloxd/blob/main/cubeWarfare.md)  
  
