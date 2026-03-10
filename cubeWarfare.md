@@ -1,5 +1,5 @@
 # bloxd cubewarfare strategy
-
+ 
 welcome! For users currently viewing this article, I am **Hansen325** . Below, I will elaborate on some of my personal(some in internet) strategy regarding the Bloxd cube warfare. I hope this will help you reach the top!
 
 ## guns
