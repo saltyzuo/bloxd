@@ -4,7 +4,7 @@ welcome! For users currently viewing this article, I am **Hansen325** . Below, I
 
 ## guns
 guns is important in game,In Bloxd, there are a total of 8 types of firearms: **AK-47** assault rifle, **MP40** gun,**M1911** pistol,**TAR-21** marksman rifle,**M16** assault rifle,**Double Barrel**, **AWP** rifle,and **Minigun**(not available in Cube Warfare).Holding a gun will slow down the player's movement speed. Pressing and holding the right button to aim will further reduce the player's movement speed.
-<i class="bi bi-markdown">text=</i>
+
 ### guns damage
 ----
 The damage of the shotgun here refers to the damage caused by one bullet, as there are ten pellets in total.
@@ -42,6 +42,11 @@ u can press `b` in buff choice list.
 - **Speedy**:(Gain permanent speed boost)
 - **Blockbreaker**:(increases the speed of breaking blocks)
 
-:gun:
+:gun:**Usage methods of different firearms**
+**1.AK-47**
+each player starts with a weapon that deals moderate damage, requiring at least four shots to achieve the first kill (assuming the opponent is at full health and has not purchased Healthup).  
+this gun has above-average damage but a low rate of fire. At this time, you should not engage in close combat with other players who use high-rate-of-fire firearms. Instead, you should maintain a medium/close-range shooting distance and engage in a shoot-off with other players. Given the relatively long distance, the effectiveness of Goodaimer is limited, and the 100-bar BUFF should be selected as Hitem. Other than that, it is not much different from other guns.  
+**2.M1911**
+
 
 
