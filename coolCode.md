@@ -132,7 +132,7 @@ onPlayerClick = (playerId, wasAltClick) => {
 
 ```
 With this world command, the effect of holding the car block (displayed as a cross in the image) given by the following command is as shown in the figure:
-![车](/Users/zuozuo/Desktop/car.png) "指令效果"
+![车](pic/car.png) "指令效果"
 
 
 
