@@ -107,11 +107,34 @@ just one click,the magic staff can emit a particle effect hit to enemy,Deal 2000
 use this code to get magic staff:  
 ```javascript
 
-api.giveItem(myId,"Stick",null,{
-  customDisplayName:"法杖" ,
-  customDescription:"" ,
-  customAttributes:{"enchantments":{"Damage":500 ,"Attack Speed":200}},
+api.giveItem(myId,"Stick",1,{
+  customDisplayName:"Magic Staff" ,
+  customDescription:"cannon!fire!" ,
+  customAttributes:{"enchantments":{"Attack Speed":200}},
   enchantmentTier:"Tier 5"},
 })
 
 ```
+
+## car
+```
+
+const speed = 2;
+onPlayerClick = (playerId, wasAltClick) => {
+    try {
+        if ("INTERNAL_MESH_Kart" === api.getHeldItem(playerId) ? .name) "undefined" == typeof Riding && (Riding = {}), Riding[playerId] ? (Riding[playerId] = !1, api.setPlayerPose(playerId, "standing"), api.updateEntityNodeMeshAttachment(playerId, "TorsoNode", null), api.setClientOption(playerId, "speedMultiplier", 1)) : (Riding[playerId] = !0, api.setPlayerPose(playerId, "driving"), api.updateEntityNodeMeshAttachment(playerId, "TorsoNode", "BloxdBlock", {
+            blockName: "INTERNAL_MESH_Kart",
+            size: 10,
+            meshOffset: [0, 0, 0]
+        }, [0, -1, -.2], [6.28, 3.15, 0]), api.setClientOption(playerId, "speedMultiplier", speed))
+    } catch (e) {}
+};
+
+```
+With this world command, the effect of holding the car block (displayed as a cross in the image) given by the following command is as shown in the figure:
+![车]((./图片/car.png) "指令效果"
+
+
+
+
+
