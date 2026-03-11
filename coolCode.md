@@ -117,7 +117,7 @@ api.giveItem(myId,"Stick",1,{
 ```
 
 ## car
-```
+```javascript
 
 const speed = 2;
 onPlayerClick = (playerId, wasAltClick) => {
