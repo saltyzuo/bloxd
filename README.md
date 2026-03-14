@@ -15,3 +15,5 @@ Bloxd.io is a free-to-play, browser-based multiplayer sandbox game featuring vox
 [cool code](https://github.com/saltyzuo/bloxd/blob/main/coolCode.md)  
 [cube warfare strategy](https://github.com/saltyzuo/bloxd/blob/main/cubeWarfare.md)  
  
+## my blog
+[blog](saltyzuo.github.io)
