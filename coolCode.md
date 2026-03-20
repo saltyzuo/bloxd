@@ -133,7 +133,7 @@ onPlayerClick = (playerId, wasAltClick) => {
 ```
 With this world command, the effect of holding the car block (displayed as a cross in the image) given by the following command is as shown in the figure:  
 
-<img src=pic/car.png width=500 height=400 />
+<img src=pic/car.png width=450 height=360 />
 
 
 
