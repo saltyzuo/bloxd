@@ -3,9 +3,9 @@
 hi there!there's bloxd cool code assemble,There are many carzy commands here.Without further ado,let's get started!  
 
 ## Source of instruction part
-[youtube](https://www.youtube.com/@AURANESZZ)
-[bloxdium](https://bloxdium.com/codes)
-[bilibili](https://www.bilibili.com/video/BV1C9hpzYEE4?spm_id_from=333.788.videopod.sections&vd_source=135477e3c9bc1f754abd09b142f70c25)
+[youtube](https://www.youtube.com/@AURANESZZ)  
+[bloxdium](https://bloxdium.com/codes)  
+[bilibili](https://www.bilibili.com/video/BV1C9hpzYEE4?spm_id_from=333.788.videopod.sections&vd_source=135477e3c9bc1f754abd09b142f70c25)  
 
 These are all things I found online.  
 
