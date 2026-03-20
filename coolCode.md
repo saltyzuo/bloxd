@@ -116,7 +116,7 @@ api.giveItem(myId,"Stick",1,{
 
 ```
 
-## car
+## player with car
 ```javascript
 
 const speed = 2;
