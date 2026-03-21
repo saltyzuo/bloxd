@@ -135,6 +135,75 @@ With this world command, the effect of holding the car block (displayed as a cro
 
 <img src=pic/car.png width=450 height=360 /> 
 
+## telekinesis
+```javascript
+
+ const ACTIVATOR = "Fireball Block",
+    THROWER = "Iceball Block",
+    PICK_RADIUS = 1.5,
+    HOLD_DISTANCE = 3,
+    HOLD_HEIGHT = 1.5,
+    THROW_POWER = 88,
+    holding = {},
+    lastHeld = {}
+
+function release(p, t) {
+    const e = holding[p];
+    if (!e) {
+        delete holding[p];
+        return
+    }
+    if (t && api.checkValid(e)) {
+        const i = api.getPlayerFacingInfo(p);
+        if (i && i.dir) {
+            const d = i.dir;
+            api.applyImpulse(e, d[0] * THROW_POWER, Math.max(d[1], 0.15) * THROW_POWER + 3, d[2] * THROW_POWER)
+        }
+    }
+    delete holding[p]
+}
+
+function tick() {
+    for (const p of api.getPlayerIds()) {
+        if (holding[p]) {
+            const t = holding[p];
+            if (!api.checkValid(t)) {
+                delete holding[p];
+                continue
+            }
+            const i = api.getPlayerFacingInfo(p);
+            if (!i) continue;
+            const c = i.camPos,
+                d = i.dir;
+            api.setPosition(t, c[0] + d[0] * HOLD_DISTANCE, c[1] + d[1] * HOLD_DISTANCE + HOLD_HEIGHT, c[2] + d[2] * HOLD_DISTANCE)
+        }
+    }
+}
+onPlayerDamagingOtherPlayer = function(a, v) {
+    const c = api.getHeldItem(a) ? .name;
+    if (c !== lastHeld[a]) {
+        if (c !== ACTIVATOR && holding[a]) release(a, true);
+        lastHeld[a] = c
+    }
+    if (c === ACTIVATOR && !holding[a] && api.checkValid(v)) holding[a] = v
+}
+onPlayerClick = function(p) {
+    const i = api.getHeldItem(p) ? .name;
+    if (i === THROWER && holding[p]) release(p, true)
+}
+onPlayerJoin = (id) => {}
+
+```
+use the undering command to get grabber and thrower:  
+```javascript
+
+api.giveItem(myId,"Fireball Block",1, {customDisplayName:"Grabber" } )
+
+api.giveItem(myId ,"Iceball Block",1, {customDisplayName:"Thrower" } )
+
+```
+just in survival,hit another player and you can control his position with your crosshair,Refer to this video:  
+[the vidio](https://www.youtube.com/watch?v=K9SjuRTa-Gc)
 
 
 
