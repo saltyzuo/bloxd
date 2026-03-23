@@ -25,6 +25,11 @@ This monster is relatively large, easy to hit, and has high attack power.
 However, it has many disadvantages: it is not good at climbing stairs, its speed is extremely slow, and it is prone to killing skeletons.  
 It is recommended to use bows and arrows.  
 
+4.**wolf**:
+Although the health is low and the damage is low, it is very small and difficult to be hit by arrows.   
+It is also easy to be hit with a sword and has a fast attack speed.
+Try to use arrows and fireballs as much as possible. It is a annoying monster.
+
 ## Upgrades  
 
 Each game will offer random boosts for players to purchase, with a fixed price of one moonstone.  
