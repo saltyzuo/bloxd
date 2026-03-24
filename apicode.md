@@ -170,7 +170,10 @@ api.attemptApplyDamage({
 
 ```
 
-this function have a lot of peramers(actually,There are many things that don't need to be write out,Including those without annotations),it can make a damage to player(entity).
+this function have a lot of peramers(actually,There are many things that don't need to be write out,Including those without annotations),it can make a damage to player(entity).  
+
+### 10.forceRespawn()
+
 
 
 
