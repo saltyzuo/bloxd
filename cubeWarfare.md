@@ -42,11 +42,15 @@ u can press `b` in buff choice list.
 - **Speedy**:(Gain permanent speed boost)
 - **Blockbreaker**:(increases the speed of breaking blocks)
 
-:gun:**Usage methods of different firearms**
-**1.AK-47**
+:guns:**Usage methods of different firearms**
+**1.AK-47**:  
 each player starts with a weapon that deals moderate damage, requiring at least four shots to achieve the first kill (assuming the opponent is at full health and has not purchased Healthup).  
-this gun has above-average damage but a low rate of fire. At this time, you should not engage in close combat with other players who use high-rate-of-fire firearms. Instead, you should maintain a medium/close-range shooting distance and engage in a shoot-off with other players. Given the relatively long distance, the effectiveness of Goodaimer is limited, and the 100-bar BUFF should be selected as Hitem. Other than that, it is not much different from other guns.  
-**2.M1911**
+this gun has above-average damage but a low rate of fire. At this time, you should not engage in close combat with other players who use high-rate-of-fire firearms.   
+Instead, you should maintain a medium/close-range shooting distance and engage in a shoot-off with other players. Given the relatively long distance, the effectiveness of Goodaimer is limited, and the 100-bar BUFF should be selected as Hitem. Other than that, it is not much different from other guns.    
+**2.M1911**:  
+Single point, fast firing rate (but depends on player's hand speed), with a head injury of 38.5 without any gain, requiring at least 3 shots to achieve the first kill (assuming the enemy is full of health and has not purchased Healthup).  
+This strategy focuses on damage and movement speed. Given the relatively weak survival ability of new players in the early stages, they should purchase "Hitem" or "Goodaimer" as soon as possible after killing. The former will provide a comprehensive damage bonus, while the latter can increase head damage to 50.  
+At this point, you have the ability to kill enemies within 3 shots. You can choose to kill ground players on open rooftops (but this can easily become a key target for enemies to kill)
 
 
 
