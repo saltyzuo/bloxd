@@ -100,7 +100,7 @@ this function is like last function,but changed!it can get the types of block th
 for example, if a player is standing on 4 dirt blocks, this will return  ["Dirt", "Dirt", "Dirt", "Dirt"]  
 
 ### 7.getHealth()  
-```
+```javascript
 
 api.getHealth(entityId);
 // example:
@@ -112,7 +112,7 @@ for example,If you want to know how much health a player has, use this function.
 Simply fill in his or her id as the first parameter, and you will be able to obtain the information.  
 
 ### 8.setHealth()  
-```
+```javascript
 
 api.setHealth(entityId, newHealth, whoDidDamage, increaseMaxHealthIfNeeded)
 // example:
@@ -124,6 +124,53 @@ The first parameter is the ID of the player (or living creature) as usual.
 The second parameter is the modified health (100 represents the maximum health of the player in normal state).   
 The third parameter is special, which can be filled with either the ID of the player or creature, or written as follows: {lifeformId: LifeformId; withItem: string} (withItem is the tool used, null represents none).  
 The last parameter indicates whether to modify the maximum health as needed (for demonstration purposes, if true is filled and the command adjusts the health above 100, the maximum health will be modified as needed).  
+
+### 9.attemptApplyDamage()  
+```javascript
+
+api.attemptApplyDamage({
+    eId,
+    hitEId,
+    attemptedDmgAmt,
+    withItem,
+    bodyPartHit = undefined,
+    attackDir = undefined,
+    showCritParticles = false,
+    reduceVerticalKbVelocity = true,
+    horizontalKbMultiplier = 1,
+    verticalKbMultiplier = 1,
+    broadcastEntityHurt = true,
+    attackCooldownSettings = null,
+    hittingSoundOverride = null,
+    ignoreOtherEntitySettingCanAttack = false,
+    isTrueDamage = false,
+    damagerDbId = null,
+    })
+
+example:
+
+api.attemptApplyDamage({
+    entityId,
+    hitEntityId,
+    60,  // the damage
+    "Diamond Sword", // use this hit another entity
+    bodyPartHit = undefined, // that maybe not me to explain
+    attackDir = undefined,
+    showCritParticles = false,  // commonly ,hit entity have a particle , but there white false
+    reduceVerticalKbVelocity = true,
+    horizontalKbMultiplier = 1,
+    verticalKbMultiplier = 1,
+    broadcastEntityHurt = true, // if there's true,it will be have a hurt sound
+    attackCooldownSettings = null, // can setting this attack cooldown 
+    hittingSoundOverride = null, // attack sound whether will appear in other computer
+    ignoreOtherEntitySettingCanAttack = false, // if there's true,will ignore other attack damage
+    isTrueDamage = false, // I don't need to explain this
+    damagerDbId = null, 
+    })
+
+```
+
+this function have a lot of peramers(actually,There are many things that don't need to be write out,Including those without annotations),it can make a damage to player(entity).
 
 
 
