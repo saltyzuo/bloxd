@@ -42,7 +42,7 @@ u can press `b` in buff choice list.
 - **Speedy**:(Gain permanent speed boost)
 - **Blockbreaker**:(increases the speed of breaking blocks)
 
-:gun:**Usage methods of different firearms**(is some diffcult)
+**Usage methods of different firearms**(is some diffcult)
 `1.AK-47`:  
 
 each player starts with a weapon that deals moderate damage, requiring at least four shots to achieve the first kill (assuming the opponent is at full health and has not purchased Healthup).  
