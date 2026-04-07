@@ -156,7 +156,7 @@ api.attemptApplyDamage({
     "Diamond Sword", // use this hit another entity
     bodyPartHit = undefined, // that maybe not me to explain
     attackDir = undefined,
-    showCritParticles = false,  // commonly ,hit entity have a particle , but there white false
+    showCritParticles = false,  // commonly ,hit entity have a particle , but there write false
     reduceVerticalKbVelocity = true,
     horizontalKbMultiplier = 1,
     verticalKbMultiplier = 1,
@@ -164,7 +164,7 @@ api.attemptApplyDamage({
     attackCooldownSettings = null, // can setting this attack cooldown 
     hittingSoundOverride = null, // attack sound whether will appear in other computer
     ignoreOtherEntitySettingCanAttack = false, // if there's true,will ignore other attack damage
-    isTrueDamage = false, // I don't need to explain this
+    isTrueDamage = true, // I don't need to explain this
     damagerDbId = null, 
     })
 
@@ -173,8 +173,202 @@ api.attemptApplyDamage({
 this function have a lot of peramers(actually,There are many things that don't need to be write out,Including those without annotations),it can make a damage to player(entity).  
 
 ### 10.forceRespawn()
+```javascript
 
+api.forceRespawn(playerId, respawnPos) // respawn pos is a list:[x,y,z]
 
+```
+this code is commonly....can Force respawn a player to a position.  
+
+### 11.isAlive()  
+```javascript
+
+api.isAlive(entityId);
+
+```
+Whether a lifeform is alive or dead (or on the respawn screen, in a player's case).  
+
+## particle effect : api.playParticleEffect()
+These are the strings you can give to functions that take a particle effect `texture` as input:
+
+`bubble`
+`critical_hit`
+`drift`
+`effect_5`
+`generic_2`
+`glint`
+`heart`
+`scary_face`
+`soul_0`
+`square_particle`
+`z-particle`  
+here is a example:  
+```ts
+
+let [x, y, z] = thisPos  // thisPos u know ? there.
+y += 1
+api.playParticleEffect({
+    dir1: [-1, -1, -1],
+    dir2: [1, 1, 1],
+    pos1: [x, y, z],
+    pos2: [x + 1, y + 1, z + 1],
+    texture: "bubble",
+    minLifeTime: 0.2,
+    maxLifeTime: 0.6,
+    minEmitPower: 2,
+    maxEmitPower: 2,
+    minSize: 0.25,
+    maxSize: 0.35,
+    manualEmitCount: 20,
+    gravity: [0, -10, 0],
+    colorGradients: [
+        {
+            timeFraction: 0,
+            minColor: [60, 60, 150, 1],
+            maxColor: [200, 200, 255, 1],
+        },
+    ],
+    velocityGradients: [
+        {
+            timeFraction: 0,
+            factor: 1,
+            factor2: 1,
+        },
+    ],
+    blendMode: 1,
+})
+
+```
+You can also use a `presetId` instead to use a pre-defined particle effect, to replicate effects we use in-engine.
+Here is the code for an example of using a presetId:
+
+```ts
+let [x, y, z] = thisPos
+y += 1
+api.playParticleEffect({
+    presetId: "aura",
+    pos1: [x, y, z],
+    pos2: [x + 1, y + 1, z + 1],
+})
+```
+
+Here is a list of the presetIds you can use:
+
+`brainRot`
+`stomp`
+`fertiliser`
+`bonemeal`
+`mobTameSuccess`
+`mobTameFailure`
+`mobCatch`
+`spawnCaughtMob`
+`mobFeedDefault`
+`mobFeedSuperliked`
+`mobFeedLike`
+`mobFeedNeutral`
+`mobFeedDisliked`
+`mobDeath`
+`mobDeathSoul`
+`boardShopSuccess`
+`mobSpawnerBlockFail`
+`mobSpawnerBlockPassive`
+`mobSpawnerBlockNeutral`
+`mobSpawnerBlockHostile`
+`mobSpawnOrb`
+`aura`
+`yellowFirecrackerSmall`
+`yellowFirecrackerLarge`
+`whiteFirecrackerSmall`
+`whiteFirecrackerLarge`
+`redFirecrackerSmall`
+`redFirecrackerLarge`
+`purpleFirecrackerSmall`
+`purpleFirecrackerLarge`
+`pinkFirecrackerSmall`
+`pinkFirecrackerLarge`
+`orangeFirecrackerSmall`
+`orangeFirecrackerLarge`
+`magentaFirecrackerSmall`
+`magentaFirecrackerLarge`
+`limeFirecrackerSmall`
+`limeFirecrackerLarge`
+`lightGrayFirecrackerSmall`
+`lightGrayFirecrackerLarge`
+`lightBlueFirecrackerSmall`
+`lightBlueFirecrackerLarge`
+`greenFirecrackerSmall`
+`greenFirecrackerLarge`
+`grayFirecrackerSmall`
+`grayFirecrackerLarge`
+`cyanFirecrackerSmall`
+`cyanFirecrackerLarge`
+`brownFirecrackerSmall`
+`brownFirecrackerLarge`
+`blueFirecrackerSmall`
+`blueFirecrackerLarge`
+`blackFirecrackerSmall`
+`blackFirecrackerLarge`
+`defaultFirecrackerSmall`
+`defaultFirecrackerLarge`
+`mango`
+`speedInner`
+`speedOuter`
+`damageReductionInner`
+`damageReductionOuter`
+`damageInner`
+`damageOuter`
+`invisibleInner`
+`invisibleOuter`
+`jumpBoostInner`
+`jumpBoostOuter`
+`knockbackInner`
+`knockbackOuter`
+`poisonedInner`
+`poisonedOuter`
+`slownessInner`
+`slownessOuter`
+`weaknessInner`
+`weaknessOuter`
+`cleansedInner`
+`cleansedOuter`
+`instantDamageInner`
+`instantDamageOuter`
+`healthRegenInner`
+`healthRegenOuter`
+`instantHealthInner`
+`instantHealthOuter`
+`hasteInner`
+`hasteOuter`
+`shieldInner`
+`shieldOuter`
+`doubleJumpInner`
+`doubleJumpOuter`
+`heatResistanceInner`
+`heatResistanceOuter`
+`thiefInner`
+`thiefOuter`
+`xRayVisionInner`
+`xRayVisionOuter`
+`miningYieldInner`
+`miningYieldOuter`
+`brainRotInner`
+`brainRotOuter`
+`auraInner`
+`auraOuter`
+`wallClimbingInner`
+`wallClimbingOuter`
+`airWalkInner`
+`airWalkOuter`
+`pickpocketerInner`
+`pickpocketerOuter`
+`lifestealInner`
+`lifestealOuter`
+`bouncinessInner`
+`bouncinessOuter`
+`blindnessInner`
+`blindnessOuter`
+`poopyInner`
+`poopyOuter`
 
 
 
