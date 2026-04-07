@@ -205,6 +205,117 @@ api.giveItem(myId ,"Iceball Block",1, {customDisplayName:"Thrower" } )
 just in survival,hit another player and you can control his position with your crosshair,Refer to this video:  
 [the vidio](https://www.youtube.com/watch?v=K9SjuRTa-Gc)
 
+## keep inventory  
+this code is wrote myself!:D:D:D:D
+here's the code:
+```js
 
+let keepInventoryPlayers = {};
+
+onPlayerChat = (p, msg) => {
+    if (msg === "!!s keepinventory") {
+        keepInventoryPlayers[p] = true;
+        api.sendMessage(p, aKeepInventory enabled.");
+        return false;
+    }
+    if (msg === "!!s survival") {
+        delete keepInventoryPlayers[p];
+        api.sendMessage(p, "KeepInventory disabled.");
+        return false;
+    }
+    return true;
+};
+
+onPlayerKilledOtherPlayer = (attacker, victim, damage, withItem) => {
+    if (keepInventoryPlayers[victim]) {
+        api.sendMessage(victim, "Your items were kept.");
+        return "keepInventory";
+    }
+};
+
+onMobKilledPlayer = (mob, victim, damage, withItem) => {
+    if (keepInventoryPlayers[victim]) {
+        api.sendMessage(victim, "Your items were kept.");
+        return "keepInventory";
+    }
+};
+
+onPlayerLeave = (p) => {
+    delete keepInventoryPlayers[p];
+};
+
+```
+put this code in world code.
+in chat bar,type `!!s keepinventory` can keep the inventory,`!!s survival`to be normal survival.  
+
+## buy something 
+is by [deepseek](https://www.deepseek.com/)
+```js
+
+const cost = [
+    { name: "Stone", amount: 60 },
+    { name: "Maple Wood Planks", amount: 10 }
+];
+const reward = { name: "Iron Sword", amount: 1 };
+
+
+function hasEnough() {
+    let totals = {};
+    for (let i = 1; i <= 36; i++) {
+        let slot = api.getItemSlot(playerId, i);
+        if (slot && slot.name) {
+            totals[slot.name] = (totals[slot.name] || 0) + (slot.amount || 1);
+        }
+    }
+    for (let req of cost) {
+        if ((totals[req.name] || 0) < req.amount) return false;
+    }
+    return true;
+}
+
+
+function deduct() {
+    for (let req of cost) {
+        let remaining = req.amount;
+        for (let i = 36; i >= 1 && remaining > 0; i--) {
+            let slot = api.getItemSlot(playerId, i);
+            if (slot && slot.name === req.name) {
+                let take = Math.min(slot.amount || 1, remaining);
+                let newAmount = (slot.amount || 1) - take;
+                remaining -= take;
+                if (newAmount <= 0) {
+                    api.clearItemSlot(playerId, i);
+                } else {
+                    api.setItemSlot(playerId, i, slot.name, newAmount, slot.attributes);
+                }
+            }
+        }
+    }
+}
+
+
+function findEmpty() {
+    for (let i = 1; i <= 36; i++) {
+        if (!api.getItemSlot(playerId, i)) return i;
+    }
+    return null;
+}
+
+if (!hasEnough()) {
+    api.sendMessage(playerId, "ur item is not enough");
+} else {
+    let emptySlot = findEmpty();
+    if (emptySlot === null) {
+        api.sendMessage(playerId, "ur inventory is full");
+    } else {
+        deduct();
+        api.setItemSlot(playerId, emptySlot, reward.name, reward.amount, {});
+        api.sendMessage(playerId, `buying complete! u got ${reward.name} x${reward.amount}`);
+    }
+}
+
+```
+this code use 60 stone and 10 maple wood planks buy 1 iron sword(if u want change this, modify json code and reward),
+if u item not enough,it will not give u iron sword.
 
 
